@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 5a64855509731a4439fd92f2c9cb4cd3
+  - enabled: 1
+    path: Assets/Scenes/WarmupMaze.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/KeepingHold.unity
+    guid: 5615c0221000bf44590feef779c85e63
   m_configObjects: {}
