@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ReloadGuessingGame : MonoBehaviour {
+public class ReloadTrapAttack : MonoBehaviour {
 
     public void OnTriggerEnter()
     {
