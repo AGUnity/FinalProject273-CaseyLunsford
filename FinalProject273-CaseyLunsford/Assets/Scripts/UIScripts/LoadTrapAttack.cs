@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadWarmupMaze: MonoBehaviour {
+public class LoadTrapAttack : MonoBehaviour {
 
-	public void LoadScene()
+    public void LoadScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 }

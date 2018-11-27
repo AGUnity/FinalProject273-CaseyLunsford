@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadUIEndOfKeepingHold : MonoBehaviour {
+public class LoadInLevelTrapAttack : MonoBehaviour {
 
     public string TriggerName = string.Empty;
 
     void OnTriggerEnter(Collider Col)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
     }
 }

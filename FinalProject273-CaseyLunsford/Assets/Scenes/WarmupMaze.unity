@@ -2160,6 +2160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bec7abac74b16142922c0edc27bc6c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TriggerName: EndTrigger
 --- !u!65 &1738953812
 BoxCollider:
   m_ObjectHideFlags: 0
