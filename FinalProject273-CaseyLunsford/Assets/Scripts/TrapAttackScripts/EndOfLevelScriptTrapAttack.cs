@@ -2,7 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EndOfLevelScriptGuess : MonoBehaviour {
+public class EndOfLevelScriptTrapAttack : MonoBehaviour {
+
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
